@@ -1,0 +1,71 @@
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+header {
+  z-index: 2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.circle-nav-link {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0 11px;
+  padding-top: 9px;
+}
+
+.circle-nav-link-phone {
+  border: 1px solid white;
+  border-radius: 15px;
+  max-width: 204px;
+  height: 36px;
+  margin: 0 11px;
+  padding: 4px 27px 0 33px;
+}
+
+.main-banner {
+  background-image: url("../images/img_4.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.main-banner.item-2 {
+  background-image: url("../images/img_3.jpg");
+}
+.main-banner.item-3 {
+  background-image: url("../images/img_2.jpg");
+}
+.main-banner.item-4 {
+  background-image: url("../images/img_1.jpg");
+}
+
+/*carousel*/
+.owl-carousel .owl-nav button.owl-prev:after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f100";
+  position: absolute;
+  top: 400px;
+  left: 60px;
+  font-size: 25px;
+  color: #6c757d;
+}
+
+.owl-carousel .owl-nav button.owl-next:after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f101";
+  position: absolute;
+  top: 400px;
+  right: 60px;
+  font-size: 25px;
+  color: #6c757d;
+}
+
+/*# sourceMappingURL=style.css.map */
