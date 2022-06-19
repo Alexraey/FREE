@@ -4,6 +4,12 @@
 header {
   z-index: 3;
 }
+header p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
@@ -62,43 +68,129 @@ header {
   }
 }
 
+.main-section h1 {
+  font-family: "20 Kopeek Book";
+  font-size: 55px;
+  line-height: 100%;
+}
 @media screen and (max-width: 768px) {
   .main-section h1 {
     color: #FFFFFF;
   }
+}
+.main-section h2 {
+  font-family: "20 Kopeek Book";
+  font-size: 34px;
+  line-height: 110%;
 }
 @media screen and (max-width: 768px) {
   .main-section h2 {
     color: #FFFFFF;
   }
 }
+.main-section a {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
 
 .main-section {
   height: 100vh;
 }
-.main-section .h-100 {
-  height: 100vh;
-}
 .main-section .position-absolute {
   z-index: 2;
+  top: 300px;
 }
 
 .firm_style {
   padding-top: 68px;
   padding-bottom: 134px;
 }
+.firm_style h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+}
+.firm_style p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.logos_and_names {
+  padding-bottom: 80px;
+}
+.logos_and_names h2 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-bottom: 70px;
+}
+
+.font_numbers {
+  top: -30px;
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+}
+
+.font_paragraf {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.font_paragraf_smal {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
 
 .cost_style {
   padding-top: 68px;
   padding-bottom: 134px;
 }
-
-.form_callback .form-check {
-  padding-left: 36px;
+.cost_style h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
 }
-
+.cost_style p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
 .cost_style .bg-primary {
   border-radius: 5px;
+}
+
+.portfolio h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+}
+.portfolio p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.portfolio a {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 .gadline_style {
@@ -107,9 +199,87 @@ header {
 .gadline_style .bg-primary {
   border-radius: 5px;
 }
+.gadline_style h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+}
+.gadline_style p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.gadline_style h4 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+}
 
 .form_callback {
   padding-bottom: 150px;
+  padding-top: 30px;
+}
+.form_callback .form-check {
+  padding-left: 36px;
+}
+.form_callback h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+}
+.form_callback p {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+}
+.form_callback label {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.form_callback button {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.stages_creation {
+  padding-bottom: 150px;
+}
+.stages_creation h3 {
+  font-family: "20 Kopeek Book";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+}
+.stages_creation h4 {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+@media screen and (max-width: 768px) {
+  .stages_creation h4 {
+    font-size: 15px;
+  }
+}
+.stages_creation p {
+  font-family: "20 Kopeek";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+@media screen and (max-width: 768px) {
+  .stages_creation p {
+    font-size: 12px;
+  }
 }
 
 /*carousel*/
@@ -118,7 +288,7 @@ header {
   font-weight: 900;
   content: "\f100";
   position: absolute;
-  top: 400px;
+  top: 700px;
   left: 60px;
   font-size: 25px;
   color: #6c757d;
@@ -134,7 +304,7 @@ header {
   font-weight: 900;
   content: "\f101";
   position: absolute;
-  top: 400px;
+  top: 700px;
   right: 60px;
   font-size: 25px;
   color: #6c757d;

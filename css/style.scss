@@ -4,6 +4,15 @@
 
 
 
+
+
+
+$main_font:'20 Kopeek';
+$book_font:'20 Kopeek Book';
+
+
+
+
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -14,6 +23,12 @@
 
 header {
   z-index: 3;
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+  }
 }
 .navbar-light .navbar-nav .nav-link{
   color: #FFFFFF;
@@ -49,6 +64,8 @@ header {
 
 
 
+
+
 .main-banner {
   background-image: url("../images/img_4.jpg");
   background-size: cover;
@@ -69,66 +86,224 @@ header {
 
 .main-section {
   h1 {
+    font-family: $book_font;
+    font-size: 55px;
+    line-height: 100%;
     @include max-screen(768px) {
       color: #FFFFFF;
     }
   }
 
   h2 {
+    font-family: $book_font;
+    font-size: 34px;
+    line-height: 110%;
     @include max-screen(768px) {
       color: #FFFFFF;
     }
+  }
+  a{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
   }
 }
 
 .main-section{
   height: 100vh;
-  .h-100{
-    height: 100vh;
-  }
+
   .position-absolute{
     z-index: 2;
+    top: 300px;
   }
 }
 
 .firm_style{
   padding-top: 68px;
   padding-bottom: 134px;
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+  }
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
 }
+
+
+.logos_and_names {
+  padding-bottom: 80px;
+  h2 {
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    margin-bottom: 70px;
+  }
+}
+
+.font_numbers{
+  top: -30px;
+  font-family: $book_font;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+}
+
+.font_paragraf{
+  font-family: $main_font;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+
+.font_paragraf_smal{
+  font-family: $main_font;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
+
 
 .cost_style {
   padding-top: 68px;
   padding-bottom: 134px;
-}
-
-
-.form_callback{
-  .form-check{
-    padding-left: 36px;
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
   }
-}
-
-.cost_style{
-  .bg-primary{
-      border-radius: 5px
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
   }
-}
-
-.gadline_style{
-  padding: 50px 0;
   .bg-primary{
     border-radius: 5px
   }
 }
 
 
+.portfolio{
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+  }
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  a{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+
+.gadline_style{
+  padding: 50px 0;
+  .bg-primary{
+    border-radius: 5px
+  }
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+  }
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  h4{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+  }
+}
+
+
 .form_callback{
   padding-bottom: 150px;
+  padding-top: 30px;
+  .form-check{
+    padding-left: 36px;
+  }
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+  }
+  p{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+  }
+  label{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  button{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
 }
 
 
 
+.stages_creation{
+  padding-bottom: 150px;
+  h3{
+    font-family: $book_font;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+  }
+  h4{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 
+    @include max-screen(768px){
+      font-size: 15px;
+    }
+  }
+  p{
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    @include max-screen(768px){
+      font-size: 12px;
+    }
+  }
+}
 
 
 
@@ -141,7 +316,7 @@ header {
   font-weight: 900;
   content: "\f100";
   position: absolute;
-  top: 400px;
+  top: 700px;
   left: 60px;
   font-size: 25px;
   color: #6c757d;
@@ -154,7 +329,7 @@ header {
   font-weight: 900;
   content: "\f101";
   position: absolute;
-  top: 400px;
+  top: 700px;
   right: 60px;
   font-size: 25px;
   color: #6c757d;
